@@ -6,7 +6,7 @@ rustflags = [
 
   # uncomment to use rustc LLD to link programs (a)
   # "-C", "link-arg=-Tlink.x",
-   "-C", "linker=lld",
+   "-C", "linker=rust-lld",
    "-Z", "linker-flavor=ld.lld",
 ]
 
@@ -18,7 +18,7 @@ rustflags = [
 
   # uncomment to use rustc LLD to link programs (a)
   # "-C", "link-arg=-Tlink.x",
-   "-C", "linker=lld",
+   "-C", "linker=rust-lld",
    "-Z", "linker-flavor=ld.lld",
 ]
 
@@ -30,7 +30,7 @@ rustflags = [
 
   # uncomment to use rustc LLD to link programs (a)
   # "-C", "link-arg=-Tlink.x",
-   "-C", "linker=lld",
+   "-C", "linker=rust-lld",
    "-Z", "linker-flavor=ld.lld",
 ]
 
@@ -42,7 +42,7 @@ rustflags = [
 
   # uncomment to use rustc LLD to link programs (a)
   # "-C", "link-arg=-Tlink.x",
-   "-C", "linker=lld",
+   "-C", "linker=rust-lld",
    "-Z", "linker-flavor=ld.lld",
 ]
 
