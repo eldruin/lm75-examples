@@ -1,4 +1,4 @@
-# Additional example programs for the [lm75] crate
+# Additional example programs for the [lm75] crate [![Build Status](https://travis-ci.org/eldruin/lm75-examples.svg?branch=master)](https://travis-ci.org/eldruin/lm75-examples)
 
 [lm75]: https://crates.io/crates/lm75
 
