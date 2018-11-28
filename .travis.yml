@@ -1,0 +1,31 @@
+language: rust
+
+before_install:
+  - git clone https://github.com/eldruin/rust-driver-example-ci-scripts ci
+  - bash ci/before_install.sh
+
+matrix:
+  include:
+    # F3 Discovery
+    - env: TARGET=thumbv7em-none-eabihf EXAMPLES="f3-display"
+      rust: nightly # edition support is only available in nightly
+
+install:
+  bash ci/install.sh
+
+script:
+  bash ci/script.sh
+
+after_script: set +e
+
+cache: cargo
+cache:
+  directories:
+    - /home/travis/.cargo
+
+before_cache:
+  bash ci/before_cache.sh
+
+notifications:
+  email:
+    on_success: never
