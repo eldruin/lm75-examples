@@ -1,5 +1,11 @@
 //! Continuously read the temperature with the LM75 and display it in
 //! an SSD1306 OLED display.
+//!
+//! This example is runs on the STM32F3 Discovery board.
+//!
+//! Please connect the pins PB6 (SCL) and PB7 (SDA) of the discovery
+//! board to the SCL(CLK) and SDA(DATA) pins of both the LM75 device
+//! and the SSD1306 display.
 #![deny(unsafe_code)]
 #![no_std]
 #![no_main]
