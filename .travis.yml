@@ -10,6 +10,10 @@ matrix:
     - env: TARGET=thumbv7em-none-eabihf EXAMPLES="f3-display"
       rust: nightly # edition support is only available in nightly
 
+    # Blue pill
+    - env: TARGET=thumbv7m-none-eabi EXAMPLES="bp-display"
+      rust: nightly # edition support is only available in nightly
+
 install:
   bash ci/install.sh
 
