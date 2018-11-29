@@ -3,9 +3,17 @@
 //!
 //! This example is runs on the STM32F3 Discovery board using I2C1.
 //!
-//! Please connect the pins PB6 (SCL) and PB7 (SDA) of the discovery
-//! board to the SCL(CLK) and SDA(DATA) pins of both the LM75 device
-//! and the SSD1306 display.
+//! ```
+//!    Blue Pill <-> LM75 <-> Display
+//! (black)  GND <-> GND  <-> GND
+//! (red)    VCC <-> +5V  <-> +5V
+//! (yellow) PB7 <-> SDA  <-> SDA
+//! (green)  PB6 <-> SCL  <-> SCL
+//! ```
+//! Run with:
+//! `cargo run --example f3-display --target thumbv7em-none-eabihf`,
+//! currently only works on nightly.
+
 #![deny(unsafe_code)]
 #![no_std]
 #![no_main]
