@@ -76,7 +76,7 @@ fn main() -> ! {
         let mut buffer: heapless::String<heapless::consts::U32> = heapless::String::new();
         let temp = lm75.read_temperature().unwrap();
 
-        write!(buffer, "Temperature {}", temp).unwrap();
+        write!(buffer, "Temperature {}ºC", temp).unwrap();
 
         disp.draw(
         Font6x8::render_str(&buffer)
