@@ -5,7 +5,7 @@ rustflags = [
 #  "-C", "link-arg=-nostartfiles",
 
   # uncomment to use rustc LLD to link programs (a)
-  # "-C", "link-arg=-Tlink.x",
+   "-C", "link-arg=-Tlink.x",
    "-C", "linker=rust-lld",
    "-Z", "linker-flavor=ld.lld",
 ]
@@ -17,7 +17,7 @@ rustflags = [
 #  "-C", "link-arg=-nostartfiles",
 
   # uncomment to use rustc LLD to link programs (a)
-  # "-C", "link-arg=-Tlink.x",
+   "-C", "link-arg=-Tlink.x",
    "-C", "linker=rust-lld",
    "-Z", "linker-flavor=ld.lld",
 ]
@@ -29,7 +29,7 @@ rustflags = [
 #  "-C", "link-arg=-nostartfiles",
 
   # uncomment to use rustc LLD to link programs (a)
-  # "-C", "link-arg=-Tlink.x",
+   "-C", "link-arg=-Tlink.x",
    "-C", "linker=rust-lld",
    "-Z", "linker-flavor=ld.lld",
 ]
@@ -41,7 +41,7 @@ rustflags = [
 #  "-C", "link-arg=-nostartfiles",
 
   # uncomment to use rustc LLD to link programs (a)
-  # "-C", "link-arg=-Tlink.x",
+   "-C", "link-arg=-Tlink.x",
    "-C", "linker=rust-lld",
    "-Z", "linker-flavor=ld.lld",
 ]
