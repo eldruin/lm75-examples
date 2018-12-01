@@ -21,11 +21,6 @@ f3 = "0.6.1"
 shared-bus = { version = "0.1.4", features = ["cortexm"] }
 heapless = "0.4.0"
 
-[dependencies.stm32f103xx-hal]
-features = ["rt"]
-git = "https://github.com/japaric/stm32f103xx-hal"
-rev = "45ff8686f16ed0d9d97adfbafb73c21e9e9ee7e8"
-
 [profile.release]
 codegen-units = 1 # better optimizations
 debug = true
