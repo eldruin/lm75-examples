@@ -4,11 +4,11 @@
 //! This example is runs on the STM32F3 Discovery board using I2C1.
 //!
 //! ```
-//!    Blue Pill <-> LM75 <-> Display
-//! (black)  GND <-> GND  <-> GND
-//! (red)    VCC <-> +5V  <-> +5V
-//! (yellow) PB7 <-> SDA  <-> SDA
-//! (green)  PB6 <-> SCL  <-> SCL
+//! F3  <-> LM75 <-> Display
+//! GND <-> GND  <-> GND
+//! VCC <-> +5V  <-> +5V
+//! PB7 <-> SDA  <-> SDA
+//! PB6 <-> SCL  <-> SCL
 //! ```
 //! Run with:
 //! `cargo run --example f3-display --target thumbv7em-none-eabihf`,
