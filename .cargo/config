@@ -6,8 +6,8 @@ rustflags = [
 
   # uncomment to use rustc LLD to link programs (a)
    "-C", "link-arg=-Tlink.x",
-   "-C", "linker=rust-lld",
-   "-Z", "linker-flavor=ld.lld",
+   #"-C", "linker=rust-lld",
+   #"-Z", "linker-flavor=ld.lld",
 ]
 
 [target.thumbv7m-none-eabi]
@@ -18,8 +18,8 @@ rustflags = [
 
   # uncomment to use rustc LLD to link programs (a)
    "-C", "link-arg=-Tlink.x",
-   "-C", "linker=rust-lld",
-   "-Z", "linker-flavor=ld.lld",
+   #"-C", "linker=rust-lld",
+   #"-Z", "linker-flavor=ld.lld",
 ]
 
 [target.thumbv7em-none-eabi]
@@ -30,8 +30,8 @@ rustflags = [
 
   # uncomment to use rustc LLD to link programs (a)
    "-C", "link-arg=-Tlink.x",
-   "-C", "linker=rust-lld",
-   "-Z", "linker-flavor=ld.lld",
+   #"-C", "linker=rust-lld",
+   #"-Z", "linker-flavor=ld.lld",
 ]
 
 [target.thumbv7em-none-eabihf]
@@ -42,8 +42,8 @@ rustflags = [
 
   # uncomment to use rustc LLD to link programs (a)
    "-C", "link-arg=-Tlink.x",
-   "-C", "linker=rust-lld",
-   "-Z", "linker-flavor=ld.lld",
+   #"-C", "linker=rust-lld",
+   #"-Z", "linker-flavor=ld.lld",
 ]
 
 # (a) you also need to comment out the other two `link-arg` lines. But note that as of v0.6.0 LLD
